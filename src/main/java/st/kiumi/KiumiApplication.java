@@ -9,5 +9,5 @@ public class KiumiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KiumiApplication.class, args);
 	}
-
+       
 }
