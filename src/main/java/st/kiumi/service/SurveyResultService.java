@@ -20,7 +20,6 @@ public class SurveyResultService {
                 .question3(resultRequestDto.getQ3())
                 .question4(resultRequestDto.getQ4())
                 .question5(resultRequestDto.getQ5())
-                .question6(resultRequestDto.getQ6())
                 .build();
 
         surveyResultRepository.save(surveyResult);
