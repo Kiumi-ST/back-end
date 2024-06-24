@@ -25,10 +25,10 @@ public class SurveyResult {
     @CreatedDate
     private LocalDateTime date;
 
-    @Column(length = 30)
-    private String question1;
+    private Float question1;
 
-    private Float question2;
+    @Column(length = 100)
+    private String question2;
 
     @Column(length = 100)
     private String question3;
@@ -36,10 +36,7 @@ public class SurveyResult {
     @Column(length = 100)
     private String question4;
 
-    @Column(length = 100)
-    private String question5;
-
     @Column(length = 500)
-    private String question6;
+    private String question5;
 
 }
